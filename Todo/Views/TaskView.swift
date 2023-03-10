@@ -11,7 +11,7 @@ struct TaskView: View {
     @EnvironmentObject var realmManager : RealmManager
     var body: some View {
         VStack {
-            Text("Task Manager")
+            Text("Hey Manager")
             
                 .font(.title3).bold()
                 .padding()
